@@ -23,7 +23,7 @@
 
 <div class = "container">
 	<h1>Crystal Shyps</h1>
-	<h2>by Glen Tennis</h2>
+	<h2>a game directed by Glen Tennis</h2>
 
 <br>
 <br>
@@ -33,30 +33,36 @@
 		<div class="col-md-8">
 			<div id="description">
 			
-			<p>You have crash landed on a planet unknown.  Calibrate your crystals correctly to fix the engine to your crystal shyp</p>
+			<p>You are space pilot Glen Tennis.  While en route to your peacekeeping mission to Correnia, you have crash landed on a planet unknown.  Calibrate your crystals correctly to fix the engine to your crystal shyp</p>
 
 			<p>You will be given a random number at the start of the game.</p>
 			
-			<p>There are 4 crystals below.  Each one has a different value, and values are rerandomized every round. When you click a crystal, it adds energy to the ship.  You gotta add the crystal energy if you want off this planet. </p>
+			<p>There are 4 crystals below.  Each one has a different value, and values are re-randomized every round. When you click a crystal, it adds energy to the ship.  You gotta calibrate the crystal energy correctly if you want off this planet. </p>
 
-			<p>You win by matching your total score to the given random number.  You lose if your total score goes above the given number</p>
+			<p>You win by matching your total score to the given random number.  You lose if your total score goes above the given number.</p>
 
-			<p>Each time the game resets, the values of each crystal will be rerandomized.</p>
+			<p>Each time the game resets, the values of each crystal will be re-randomized.</p>
 			</div>
+		</div>
+		<div class="col-md-4">
+			<img src="assets/images/glen.png" id="glen" alt="that's glen" style="width: 400px; height:300px; margin-right: 100px;">
 		</div>
 	</div>
 
 <br>
 <br>
-	
+<br>
+<br>	
 	<!-- random number and win/loss box -->
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-6 purple-area">
 			<div id="given-number">
 				<p>Target Score</p>
-			</div>	
+			</div>
+			<br>
+			<p>Recalibrate your crystal engine by matching the number above</p>	
 		</div>	
-		<div class="col-md-4">
+		<div class="col-md-5 win-loss">
 			<div id="win-loss">
 				<p id="wins">Wins: 0</p>
 				<p id="losses">Losses: 0</p>
@@ -88,13 +94,13 @@
 
 	<!-- player score -->
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-12 purple-area">
 			<p>Your total score is:</p>
 		</div>
 	</div>
 	<br>
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-12 purple-area">
 			<div id="player-score">
 				<p>0</p>
 			</div>

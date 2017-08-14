@@ -1,0 +1,43 @@
+/*background image*/
+body {
+	background: url(../images/light_honeycomb.png);
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	font-family: shrikhand;
+	color: #9447F3;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: #9447F3;
+	
+}
+
+p {
+	font-size: 18px;
+}
+
+.purple-area {
+	background-color: #9447F3;
+	text-align: center;
+	padding: 25px;
+	color: #BAB8B8;
+	margin-right: 10px;
+
+}
+
+#given-number {
+	font-size: 50px;
+}
+
+.win-loss {
+	background-color: #9447F3;
+	padding: 25px;
+	color: #BAB8B8;
+	margin-left: 10px;
+}

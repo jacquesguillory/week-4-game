@@ -4,7 +4,7 @@ window.onload = function(){
 var target = Math.floor(Math.random() * 102) +19;
 
 // displaying target score
-$("#given-number").html(target);
+$("#given-number").html("<p>" + target + "</p>");
 
 console.log("target score " + target);
 
@@ -44,7 +44,7 @@ $("#crystal-1").on("click", function(){
 		$("#wins").html("<p>Wins: " + wins + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -68,7 +68,7 @@ $("#crystal-1").on("click", function(){
 		$("#losses").html("<p>Losses: " + losses + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -100,7 +100,7 @@ $("#crystal-2").on("click", function(){
 		$("#wins").html("<p>Wins: " + wins + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -124,7 +124,7 @@ $("#crystal-2").on("click", function(){
 		$("#losses").html("<p>Losses: " + losses + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -156,7 +156,7 @@ $("#crystal-3").on("click", function(){
 		$("#wins").html("<p>Wins: " + wins + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -180,7 +180,7 @@ $("#crystal-3").on("click", function(){
 		$("#losses").html("<p>Losses: " + losses + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -212,7 +212,7 @@ $("#crystal-4").on("click", function(){
 		$("#wins").html("<p>Wins: " + wins + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
@@ -236,7 +236,7 @@ $("#crystal-4").on("click", function(){
 		$("#losses").html("<p>Losses: " + losses + "</p>");
 		// reset target score
 		target = Math.floor(Math.random() * 102) +19;
-		$("#given-number").html(target);
+		$("#given-number").html("<p>" + target + "</p>");df
 		console.log("new target " + target);
 		// reset player score
 		playerScore = 0;
